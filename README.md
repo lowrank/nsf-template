@@ -9,3 +9,11 @@ Current version of the NSF PAPPG is ``NSF 22-1``, will be updated to [``NSF 23-1
 - [ ] Project Summary
 - [ ] Project Description
 - [ ] Reference Cited
+- [ ] Senior Personnel Documents
+
+## First Time Setup
+
+1. Download the NSF fillable forms for senior personnel documents. The directory will be created. 
+```
+bash senior_personnel_forms.sh
+```
