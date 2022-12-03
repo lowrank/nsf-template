@@ -10,6 +10,13 @@ bibtex                                   ./Submission/description.aux
 pdflatex --output-directory=./Submission ./Project_Description/description.tex
 pdflatex --output-directory=./Submission ./Project_Description/description.tex
 
+# References Cited
+
+pdflatex --output-directory=./Submission ./References_Cited/references.tex
+bibtex                                   ./Submission/references.aux 
+pdflatex --output-directory=./Submission ./References_Cited/references.tex
+pdflatex --output-directory=./Submission ./References_Cited/references.tex
+
 # Facilities Equipment and Other Resources
 pdflatex --output-directory=./Submission ./Facilities_Equipment_and_Other_Resources/resources.tex
 bibtex                                   ./Submission/resources.aux 

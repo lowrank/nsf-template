@@ -10,8 +10,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Times New Roman
-\LoadClass[11pt, letterpaper, timesnewroman, onecolumn]{article}
+% default (Computer Modern)
+\LoadClass[11pt, letterpaper, onecolumn]{article}
 
 
 
