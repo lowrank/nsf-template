@@ -17,3 +17,12 @@ Current version of the NSF PAPPG is ``NSF 22-1``, will be updated to [``NSF 23-1
 ```
 bash senior_personnel_forms.sh
 ```
+
+
+
+## Issues
+1. Running the ``senior_personnel_forms.sh`` results in ``syntax error: unexpected end of file``. This usually occurs when the script is run cross-system. A workaround is to use ``dos2unix`` to convert the newline (windows is "\r\n", while in linux is "\n").
+```
+sudo apt-get install dos2unix
+dos2unix senior_personnel_forms.sh
+```
