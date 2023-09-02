@@ -50,7 +50,7 @@
 \RequirePackage[explicit]{titlesec}
 \titleformat{\section}{\Large\bfseries\filcenter}{}{0pt}{{#1}}
 \titleformat{\subsection}{\large\bfseries}{}{0pt}{{#1}}
-\titleformat{\subsubsection}{\bfseries}{}{0pt}{{#1}}
+\titleformat{\subsubsection}{\bfseries}{}{0pt}{\textit{#1}}
 \renewcommand{\title}[1]{\begin{center}\LARGE\bfseries{#1}\end{center}}
 
 \usepackage{nopageno}
