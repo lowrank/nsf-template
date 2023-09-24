@@ -35,5 +35,3 @@ FAQs can be accessed at [https://resources.research.gov/common/attachment/Deskto
 sudo apt-get install dos2unix
 dos2unix senior_personnel_forms.sh
 ```
-
-2. To use the template in Overleaf, just import the whole template. To edit the files, remember to replace the first line's ``./preamble.tex`` to ``../preamble.tex`` to let overleaf compile. To use the compile.sh, just change back.  
