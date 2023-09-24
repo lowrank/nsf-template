@@ -1,39 +1,48 @@
 # Summary
-pdflatex --output-directory=./Submission ./Project_Summary/summary.tex
-bibtex                                   ./Submission/summary.aux
-pdflatex --output-directory=./Submission ./Project_Summary/summary.tex
-pdflatex --output-directory=./Submission ./Project_Summary/summary.tex
-
+cd Project_Summary
+pdflatex --output-directory=../Submission summary.tex
+bibtex                                    ../Submission/summary.aux
+pdflatex --output-directory=../Submission summary.tex
+pdflatex --output-directory=../Submission summary.tex
+cd ..
 # Description
-pdflatex --output-directory=./Submission ./Project_Description/description.tex
-bibtex                                   ./Submission/description.aux 
-pdflatex --output-directory=./Submission ./Project_Description/description.tex
-pdflatex --output-directory=./Submission ./Project_Description/description.tex
-
+cd Project_Description
+cp ../references.bib ./
+pdflatex description.tex
+bibtex   description.aux
+pdflatex description.tex
+pdflatex description.tex
+mv description.bbl ../Submission/
+mv description.pdf ../Submission/
+rm -rf *.aux *.blg *.out *.log *.bbl *.bib
+cd ..
 # References Cited
-
-pdflatex --output-directory=./Submission ./References_Cited/references.tex
-bibtex                                   ./Submission/references.aux 
-pdflatex --output-directory=./Submission ./References_Cited/references.tex
-pdflatex --output-directory=./Submission ./References_Cited/references.tex
-
+cd References_Cited
+pdflatex --output-directory=../Submission references.tex
+bibtex                                    ../Subsmission/references.aux 
+pdflatex --output-directory=../Submission references.tex
+pdflatex --output-directory=../Submission references.tex
+cd ..
 # Facilities Equipment and Other Resources
-pdflatex --output-directory=./Submission ./Facilities_Equipment_and_Other_Resources/resources.tex
-bibtex                                   ./Submission/resources.aux 
-pdflatex --output-directory=./Submission ./Facilities_Equipment_and_Other_Resources/resources.tex
-pdflatex --output-directory=./Submission ./Facilities_Equipment_and_Other_Resources/resources.tex
-
+cd Facilities_Equipment_and_Other_Resources
+pdflatex --output-directory=../Submission resources.tex
+bibtex                                    ../Submission/resources.aux 
+pdflatex --output-directory=../Submission resources.tex
+pdflatex --output-directory=../Submission resources.tex
+cd ..
 # Data Management Plan
-pdflatex --output-directory=./Submission ./Data_Management_Plan/data.tex
-bibtex                                   ./Submission/data.aux 
-pdflatex --output-directory=./Submission ./Data_Management_Plan/data.tex
-pdflatex --output-directory=./Submission ./Data_Management_Plan/data.tex
-
+cd Data_Management_Plan
+pdflatex --output-directory=../Submission data.tex
+bibtex                                    ../Submission/data.aux 
+pdflatex --output-directory=../Submission data.tex
+pdflatex --output-directory=../Submission data.tex
+cd ..
 # Postdoc Mentoring Plan
-pdflatex --output-directory=./Submission ./Postdoctoral_Mentoring_Plan/postdoc.tex
-bibtex                                   ./Submission/postdoc.aux 
-pdflatex --output-directory=./Submission ./Postdoctoral_Mentoring_Plan/postdoc.tex
-pdflatex --output-directory=./Submission ./Postdoctoral_Mentoring_Plan/postdoc.tex
-
+cd Postdoctoral_Mentoring_Plan
+pdflatex --output-directory=../Submission postdoc.tex
+bibtex                                    ../Submission/postdoc.aux 
+pdflatex --output-directory=../Submission postdoc.tex
+pdflatex --output-directory=../Submission postdoc.tex
+cd ..
 # Clean up
 rm -rf ./Submission/*.aux ./Submission/*.bbl ./Submission/*.blg ./Submission/*.out ./Submission/*.log 
