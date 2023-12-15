@@ -4,6 +4,10 @@ This repository provides a LaTeX template for NSF full proposal submission (with
 
 Current version of the NSF PAPPG has been **updated** to [``NSF 23-1``](https://beta.nsf.gov/policies/pappg/23-1) starting from Jan 30, 2023. The summary of changes is [here](https://beta.nsf.gov/policies/pappg/23-1/summary-changes). 
 
+## Note
+NSF has posted a notice about using generative ai tools for proposal. https://new.nsf.gov/news/notice-to-the-research-community-on-ai
+Currently, the notice only concerns about the review process, it is not allowed to use the generative ai tools to write the review. However, it is not clear whether there will be any rules about using generative ai tools to write the proposal.
+
 ## First Time Setup
 Download the <del>NSF fillable forms</del> for senior personnel documents. The directory will be created. 
 ```
