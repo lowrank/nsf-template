@@ -38,11 +38,18 @@ pdflatex --output-directory=../Submission data.tex
 pdflatex --output-directory=../Submission data.tex
 cd ..
 # Postdoc Mentoring Plan
-cd Postdoctoral_Mentoring_Plan
-pdflatex --output-directory=../Submission postdoc.tex
-bibtex                                    ../Submission/postdoc.aux 
-pdflatex --output-directory=../Submission postdoc.tex
-pdflatex --output-directory=../Submission postdoc.tex
+cd Mentoring_Plan
+pdflatex --output-directory=../Submission mentoring.tex
+bibtex                                    ../Submission/mentoring.aux 
+pdflatex --output-directory=../Submission mentoring.tex
+pdflatex --output-directory=../Submission mentoring.tex
+cd ..
+# Postdoc Mentoring Plan
+cd Senior_Personnel_Documents
+pdflatex --output-directory=../Submission synergistic.tex
+bibtex                                    ../Submission/synergistic.aux 
+pdflatex --output-directory=../Submission synergistic.tex
+pdflatex --output-directory=../Submission synergistic.tex
 cd ..
 # Clean up
 rm -rf ./Submission/*.aux ./Submission/*.bbl ./Submission/*.blg ./Submission/*.out ./Submission/*.log 

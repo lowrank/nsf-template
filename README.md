@@ -21,6 +21,17 @@ Note: Only the ``Collaborators_and_Other_Affiliations`` Excel spreadsheet is dow
 bash compile.sh
 ```
 The complied files will be in ``./Submission`` directory.
+
+## Updates in ``NSF 24-1``
+- Senior Personnel Documents & Current and Pending (Other) Support
+    > **Biographical Sketch(es)**, has been revised to remove the 3-page limitation for the biographical sketch. There is no page limitation for this section of the proposal.
+
+    > **Synergistic Activities** section has been removed from the biographical sketch. This information must now be submitted by individuals designated as senior/key persons as part of the senior/key personnel documents in Research.gov.
+
+    > **Mentoring Plan**,  now requires a mentoring plan for postdoctoral researchers or graduate students supported on the project. This page limitation for the Mentoring Plan remains one page.
+
+
+
 ## Updates in ``NSF 23-1``
 - Cover Sheet
     In ``Other Information``, there will be an option about ``Off-Campus`` or ``Off-Site Research``. 
