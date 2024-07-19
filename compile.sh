@@ -53,3 +53,5 @@ pdflatex --output-directory=../Submission synergistic.tex
 cd ..
 # Clean up
 rm -rf ./Submission/*.aux ./Submission/*.bbl ./Submission/*.blg ./Submission/*.out ./Submission/*.log 
+
+echo "All files compiled successfully. **Biosketches** and **Current and Pending Support** should be downloaded from SciENcv: https://www.ncbi.nlm.nih.gov/sciencv/."

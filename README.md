@@ -11,11 +11,8 @@ NSF has posted a notice about using generative ai tools for proposal. https://ne
 Currently, the notice only concerns about the review process, it is not allowed to use the generative ai tools to write the review. However, it is not clear whether there will be any rules about using generative ai tools to write the proposal.
 
 ## First Time Setup
-Download the <del>NSF fillable forms</del> for senior personnel documents. The directory will be created. 
-```
-bash senior_personnel_forms.sh
-```
-Note: Only the ``Collaborators_and_Other_Affiliations`` Excel spreadsheet is downloaded. The other two files should be generated from **SciENcv**: [https://www.ncbi.nlm.nih.gov/sciencv/](https://www.ncbi.nlm.nih.gov/sciencv/). The updated information will be available at [https://new.nsf.gov/policies/pappg/23-1/ch-2-proposal-preparation#2D2hi](https://new.nsf.gov/policies/pappg/23-1/ch-2-proposal-preparation#2D2hi) and [https://new.nsf.gov/policies/pappg/23-1/ch-2-proposal-preparation#2D2hii](https://new.nsf.gov/policies/pappg/23-1/ch-2-proposal-preparation#2D2hii).
+The **biosketch(es)** and **current and pending support** documents should be generated from **SciENcv**: [https://www.ncbi.nlm.nih.gov/sciencv/](https://www.ncbi.nlm.nih.gov/sciencv/).
+
 ## Compile into files
 ```
 bash compile.sh
