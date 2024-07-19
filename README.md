@@ -42,10 +42,4 @@ The complied files will be in ``./Submission`` directory.
 
     To create a profile for **SciENcv**, go to [https://www.ncbi.nlm.nih.gov/sciencv/](https://www.ncbi.nlm.nih.gov/sciencv/). The **SciENcv** is listed under ``My NCBI``. One can generate the forms and download them for subsmission.
 
-FAQs can be accessed at [https://resources.research.gov/common/attachment/Desktop/NSFPDF-FAQs.pdf](https://resources.research.gov/common/attachment/Desktop/NSFPDF-FAQs.pdf). 
-## Issues
-1. Running the ``senior_personnel_forms.sh`` results in ``syntax error: unexpected end of file``. This usually occurs when the script is run cross-system. A workaround is to use ``dos2unix`` to convert the newline (windows is "\r\n", while in Linux is "\n").
-    ```
-    sudo apt-get install dos2unix
-    dos2unix senior_personnel_forms.sh
-    ```
+FAQs can be accessed at [https://resources.research.gov/common/attachment/Desktop/NSFPDF-FAQs.pdf](https://resources.research.gov/common/attachment/Desktop/NSFPDF-FAQs.pdf).
